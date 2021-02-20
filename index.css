@@ -1,0 +1,451 @@
+@media screen and (max-width:800px){
+
+           /* SECTION1 */
+           body{
+             margin:auto;
+           }
+#s1{
+height:400px;
+background-image: url("images/pic1.jpg");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-color: red;
+
+}
+.navbar-brand{
+  color:white;
+  font-family: "Dancing Script";
+  font-size:1rem;
+  letter-spacing: 8px;
+}
+.navbar ul{
+width:100px;
+
+}
+.navbar div.collapse{
+  width:100px;
+}
+.navbar-nav li a {
+  color:white;
+
+}
+.navbar-nav li{
+  margin-bottom: 10px;
+  margin-top:10px;
+}
+#s1 .fas{
+  color:white;
+  background: white;
+  z-index: 3;
+}
+
+#s1 #b2{
+  display:block;
+  margin:auto;
+  position: relative;
+  top:240px;
+  padding: 2%;
+  border-radius:20px;
+  background: #51c2d5;
+border:none;
+color:white;
+
+}
+
+          /* SECTION2 */
+
+#s2{
+  text-align: center;
+  padding: 9%;
+
+}
+#s2 img{
+  width:200px;
+  display:block;
+  margin: auto;
+margin-bottom: 30px;
+}
+#s2 h3{
+  margin-bottom:45px;
+}
+
+            /* SECTION3 */
+
+#s3{
+  text-align: center;
+  padding:  8% 4%;
+  background-color: red;
+    background: #719fb0;
+}
+.card{
+  height:350px;
+  margin-bottom: 50px;
+  box-shadow: 3px 3px 8px grey;
+}
+#s3 .card1{
+  background-image: url('images/c1.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#s3 .card2{
+  background-image: url('images/c2.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#s3 .card3{
+  background-image: url('images/c3.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#s3 .card .cfooter{
+position: relative;
+top:180px;
+
+}
+#s3 .card h7{
+  position: relative;
+  top:110px;
+  font-family: 'Dancing Script';
+  font-size: 1.3rem;
+
+  color:white;
+}
+#s3 h1{
+  font-size:1.6rem;
+  width:100%;
+  margin-bottom:25px;
+
+  /* font-family: 'Montserrat'; */
+  font-weight: 600;
+background-color:#62959c;
+}
+#s3 h6{
+  font-size:1rem;
+  margin-bottom: 70px;
+
+    letter-spacing: 1px;
+
+}
+
+
+/*
+SECTION4 */
+
+#s4{
+  text-align: center;
+  padding:  20% 4%;
+background-color:#62959c;
+}
+#s4 img{
+  border-radius: 50%;
+  width:100px;
+
+}
+#s4 .carousel-item h3{
+margin:auto;
+margin-bottom: 30px;
+margin-top:20px;
+}
+#s4 .carousel-indicators{
+  position: relative;
+  top:340px;
+color:black;
+
+}
+#s4 .carousel-inner{
+position: relative;
+bottom:20px;
+padding: 8%;
+border-radius:30px;
+  background: #03506f;
+    overflow: visible;
+}
+  /* FOOTER */
+#footer{
+  text-align: center;
+    background: #03506f;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+#footer img{
+  width:50px;
+  margin-bottom: 70px;
+}
+#footer #t1{
+  float:left;
+  display:none;
+}
+#footer #t2{
+  float:right;
+  display:none;
+}
+#footer h3,h4{
+font-size: .7rem;
+color:white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media screen and (min-width:801px){
+                                     /* SECTION1 */
+
+                                     body{
+                                       margin:auto;
+                                     }
+                                     .navbar{
+
+                                     }
+
+#b1{
+  display: none;
+}
+.navbar ul {
+position: relative;
+left:300px;
+}
+.navbar ul li{
+  margin-right: 90px;
+
+  font-family: "Montserrat";
+}
+.navbar li a{
+color:white;
+text-decoration: none;
+}
+
+.navbar li a:hover{
+  font-size:1rem;
+  color: #f2a154;
+}
+.navbar-brand{
+  color:white;
+  font-family: "Dancing Script";
+  font-size:2rem;
+  letter-spacing: 8px;
+}
+.navbar-brand:hover{
+  font-size: 2.2rem;
+  color: #f2a154;
+}
+             #s1{
+
+         height:600px;
+         background-image: url("images/pic1.jpg");
+         background-size: 100% 100%;
+         background-repeat: no-repeat;
+         background-color: red;
+       }
+
+  .nav-list{
+    list-style-type: none;
+    display:flex;
+    flex-flow:row nowrap;
+    height:80px;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+      font-size:.9rem;
+      letter-spacing: 2px;
+          margin-top:0px;
+
+  }
+
+  #s1 #b2{
+    display:block;
+    margin:auto;
+    position: relative;
+    top:360px;
+    padding: 1% 2%;
+    border-radius:20px;
+    background: #51c2d5;
+    border:none;
+   color:white;
+
+  }
+
+  #s1 #b2:hover{
+    background-color: #f2a154;
+  }
+
+  /* SECTION2 */
+
+#s2{
+text-align: center;
+padding: 4% 7%;
+
+}
+#s2 img{
+width:300px;
+}
+#s2 h3{
+margin-bottom:70px;
+}
+
+
+            /* SECTION3 */
+
+#s3{
+  text-align: center;
+  padding:  5% 4%;
+  background-color: red;
+    background: #719fb0;
+}
+.flex-container{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+.card{
+  height:350px;
+  width:350px;
+  margin-bottom: 50px;
+  box-shadow: 3px 3px 8px grey;
+border:none;
+}
+#s3 .card1{
+  background-image: url('images/c1.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#s3 .card2{
+  background-image: url('images/c2.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#s3 .card3{
+  background-image: url('images/c3.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#s3 .card .cfooter{
+position: relative;
+top:180px;
+
+}
+.cfooter button:hover{
+    background-color: #f2a154;
+    border-color:#f2a154;
+}
+
+#s3 .card h7{
+  position: relative;
+  top:110px;
+  font-family: 'Dancing Script';
+  font-size: 1.3rem;
+
+  color:white;
+}
+#s3 h1{
+  font-size:2.5rem;
+  width:100%;
+  word-spacing: 10px;
+  margin-bottom:25px;
+height:120px;
+display: flex;
+justify-content: center;
+align-items:center;
+
+  /* font-family: 'Montserrat'; */
+  font-weight: 600;
+background-color:#62959c;
+}
+#s3 h6{
+  font-size:1.2rem;
+  margin-bottom: 70px;
+text-align: center;
+
+}
+
+
+/*
+SECTION4 */
+
+#s4{
+  text-align: center;
+  padding:  10% 4%;
+background-color:#62959c;
+}
+#s4 img{
+  border-radius: 50%;
+  width:150px;
+float:left;
+}
+#s4 .carousel-item h3,p{
+position: relative;
+bottom:130px;
+left:170px;
+
+}
+#s4 p{
+  width:900px;
+}
+#s4 .carousel-indicators{
+  position: relative;
+  top:300px;
+color:black;
+
+}
+#s4 .carousel-item{
+
+}
+#s4 .carousel-inner{
+position: relative;
+bottom:20px;
+padding: 8%;
+border-radius:30px;
+  background: #03506f;
+    overflow: visible;
+}
+/* FOOTER */
+#footer{
+text-align: center;
+  background: #03506f;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#footer img{
+width:110px;
+margin-bottom: 70px;
+}
+#footer #t1{
+float:left;
+color:white;
+}
+#t1 th{
+  position: relative;
+  left:70px;
+bottom:15px;
+
+}
+#t2 th{
+  position: relative;
+  left:70px;
+  bottom:15px;
+
+}
+#footer #t2{
+float:right;
+color:white;
+}
+#footer h3,h4{
+font-size: 1rem;
+color:white;
+
+}
+}
